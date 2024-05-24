@@ -1,7 +1,7 @@
 export default  function BlogArticle(){
     return(
         <div className="flex  mb-20">   
-            <div className=" w-[660px]">
+            <div className=" w-[660px]  ">
                 <div className="date  text-gray-500 ">May 24 , 2024</div>
                 <div className="title  text-[20px] font-normal text-blue-500 ">Large Language Model's : 58 years ago and 58 from now</div>
                 <div className="description font-extralight ">LLMs have transformed the landscape of artificial intelligence, tracing their origins back to the pioneering efforts of the 1960s. Fifty-eight years ago, the concept of teaching machines to understand and generate human language seemed a distant dream.  </div>
