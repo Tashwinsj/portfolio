@@ -9,7 +9,7 @@ export default function Timeline(){
             <li><span className="font-bold text-gray-700">July 2023 : </span>1'st team in 🏆 "Intelligent and connected vehicle security hackathon" 
              </li>
             <li><span className="font-bold text-gray-700">May 2023 : </span>Interned at <a href="https://www.pesuventurelabs.com/"><u className="text-blue-400">PESU Venture labs</u> </a> as a Full stack developer at seminrroom.com</li>
-            <li><span className="font-bold text-gray-700">Feb 2023 : </span>Volunteered as an Intern at <a href="https://savegreen.in/"><u className="text-blue-400">Save Green</u> </a> (NGO) for field work in tree plantation drive </li>
+            <li><span className="font-bold text-gray-700">Feb 2023 : </span>Volunteered as an Intern at <a href="https://savegreen.in/"><u className="text-blue-400">Save Green</u> </a> (NGO) for Field work in tree plantation drive </li>
         </ul>
         
         </div>
