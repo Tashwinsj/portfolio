@@ -74,7 +74,7 @@ function Myintro(){
       <div className='w-[550px]'>I'm a Computer Science Student at <a target='_blank' href="http://cs.pes.edu"><u className='text-blue-400'>PES University</u></a> currently pursuing 
       <br /> bachelor's degree in CSE with specialization in Machine Intelligence and  <br /> Data Science.  <br /> 
       <br />
-      My research interests are Dynamic Scene Semantics and <a href="https://ieeexplore.ieee.org/document/8601227" target='_blank'> <u className='text-blue-400'> VSLAM</u> </a>   Visual <br /> Localization and mapping . I am current working 
+      My research interests are Dynamic Scene Semantics and <a href="https://ieeexplore.ieee.org/document/8601227" target='_blank'> <u className='text-blue-400'> VSLAM</u> </a>   Visual <br /> Localization and mapping. I am current working 
       with <u><a target='_blank' href="https://staff.pes.edu/nm1112/"> Prof. V R Badriprasad</a></u>  on ways to use VSLAM for dynamic environment , also currently working with  <a href="https://staff.pes.edu/nm1089/"> <u> Dr. Mamatha HR</u></a>  on NLP based techniques for closed domain question generation. You can find my other projects
       on my <a href="https://drive.google.com/file/d/1B4RZkR6r6I9ZQLD94nONLvGH-dsN7kIE/view?usp=sharing" target='_blank'><u className='text-blue-400'>resume</u></a>.
 
