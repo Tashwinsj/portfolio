@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import './App.css'
 import twitter from "./assets/twitter.png"
 import github from "./assets/github.png" 
@@ -5,14 +6,31 @@ import blog from "./assets/blog.png"
 import link from "./assets/linkedin.png"
 import Timeline from './components/Timeline'
 import Footer from './components/Footer'
-import BlogArticle from './components/BlogArticle' 
+import BlogArticle from './components/BlogArticle'  
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import cuda from "./assets/cuda.png"
 import gpt from './assets/gpt.png' 
 import tash from "./assets/tash.png"
+import Blogpage from './components/Blogpage' 
+import Notebook from "./components/Notebook"
 function App() {
 
 
   return (
+
+    <BrowserRouter> 
+    <Routes>
+      <Route path='/' element={<Mainpage/>} /> 
+      <Route path='/blog' element={<Blogpage/>}/> 
+      <Route path='/notebook' element={<Notebook/>} />
+    </Routes>
+    </BrowserRouter>
+     
+  )
+}
+
+function Mainpage(){
+  return(
     < div className='flex items-center no-scrollbar overflow-y-auto  justify-center flex-col'>
       <div className='header h-16 md:flex  sm:p-4   items-center justify-center w-screen border-gray-300 md:text-[30px] sm:text-[24px] md:font-extralight sm:font-normal   border-b-2 '>Tashwin SJ <span className='text-[20px] md:ml-[640px] sm:absolute sm:right-4 sm:mt-1 md:mt-0 md:relative md:right-0 text-gray-500'><a target='_blank' href="https://hashnode.com/@Tash">Blogs</a></span> <span className='text-[20px] md:ml-12 md:relative sm:mt-1 md:mt-0 sm:absolute sm:right-20 md:right-0   text-gray-500'> <a href="https://drive.google.com/file/d/1B4RZkR6r6I9ZQLD94nONLvGH-dsN7kIE/view?usp=sharing" target='_blank'> Resume</a></span></div>
       <Myintro/>
@@ -58,7 +76,6 @@ function App() {
     </div>
   )
 }
-
 export default App
 
 
